@@ -1,0 +1,32 @@
+@import url("//fonts.googleapis.com/earlyaccess/notosanskr.css");
+@import url("//cdn.rawgit.com/hiun/NanumSquare/master/nanumsquare.css");
+@import url("http://fonts.googleapis.com/earlyaccess/nanumgothic.css");
+@import url("/assets/fontello/css/fontello.css");
+body {
+  position: relative;
+  min-width: 1200px;
+  font-size: 14px;
+  color: #666;
+  font-family: 'Noto Sans KR', sans-serif; }
+
+h1, h2, h3, h4, h5, h6 {
+  margin: 0; }
+
+p {
+  margin-bottom: 0; }
+
+ul, ol {
+  margin: 0;
+  padding: 0;
+  list-style: none; }
+
+dl {
+  margin-bottom: 0; }
+
+address {
+  margin-bottom: 0; }
+
+.container {
+  width: 1200px; }
+
+/*# sourceMappingURL=common.css.map */

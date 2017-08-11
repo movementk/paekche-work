@@ -1,0 +1,207 @@
+@import url("//fonts.googleapis.com/earlyaccess/notosanskr.css");
+@import url("//cdn.rawgit.com/hiun/NanumSquare/master/nanumsquare.css");
+@import url("http://fonts.googleapis.com/earlyaccess/nanumgothic.css");
+@import url("/assets/fontello/css/fontello.css");
+body {
+  position: relative;
+  min-width: 1200px;
+  font-size: 14px;
+  color: #666;
+  font-family: 'Noto Sans KR', sans-serif; }
+
+h1, h2, h3, h4, h5, h6 {
+  margin: 0; }
+
+p {
+  margin-bottom: 0; }
+
+ul, ol {
+  margin: 0;
+  padding: 0;
+  list-style: none; }
+
+dl {
+  margin-bottom: 0; }
+
+address {
+  margin-bottom: 0; }
+
+.container {
+  width: 1200px; }
+
+#content {
+  width: 100%; }
+  #content .jumbotron {
+    position: relative;
+    width: 100%;
+    height: 595px;
+    padding: 0;
+    margin: 0;
+    background-color: #999; }
+    #content .jumbotron .bx-wrapper .bx-viewport .visual-slider li {
+      width: 100%;
+      height: 595px;
+      background-repeat: no-repeat;
+      background-size: cover;
+      background-position: 50% 50%; }
+      #content .jumbotron .bx-wrapper .bx-viewport .visual-slider li.visual-bg1 {
+        background-image: url(/assets/images/main/visual_img01.jpg); }
+      #content .jumbotron .bx-wrapper .bx-viewport .visual-slider li.visual-bg2 {
+        background-image: url(/assets/images/main/visual_img02.jpg); }
+      #content .jumbotron .bx-wrapper .bx-viewport .visual-slider li.visual-bg3 {
+        background-image: url(/assets/images/main/visual_img03.jpg); }
+      #content .jumbotron .bx-wrapper .bx-viewport .visual-slider li.visual-bg4 {
+        background-image: url(/assets/images/main/visual_img04.jpg); }
+      #content .jumbotron .bx-wrapper .bx-viewport .visual-slider li.visual-bg5 {
+        background-image: url(/assets/images/main/visual_img05.jpg); }
+      #content .jumbotron .bx-wrapper .bx-viewport .visual-slider li.visual-bg6 {
+        background-image: url(/assets/images/main/visual_img06.jpg); }
+    #content .jumbotron .bx-wrapper .bx-controls {
+      position: absolute;
+      bottom: 30px;
+      width: 100%;
+      height: 16px !important;
+      text-align: center; }
+      #content .jumbotron .bx-wrapper .bx-controls .bx-pager .bx-pager-item {
+        display: inline-block;
+        margin: 0 5px;
+        text-indent: -999999px; }
+        #content .jumbotron .bx-wrapper .bx-controls .bx-pager .bx-pager-item a {
+          display: block;
+          width: 16px;
+          height: 16px;
+          border-radius: 50%;
+          border: 2px solid #fff; }
+          #content .jumbotron .bx-wrapper .bx-controls .bx-pager .bx-pager-item a.active {
+            background-color: #fff; }
+    #content .jumbotron .slogan {
+      position: absolute;
+      top: 205px;
+      width: 100%; }
+      #content .jumbotron .slogan h1 {
+        font-size: 65px;
+        color: #fff;
+        font-weight: 300;
+        text-align: center;
+        padding-top: 130px;
+        background-image: url(/assets/images/main/visual_txt.png);
+        background-repeat: no-repeat;
+        background-position: 50% 0; }
+        #content .jumbotron .slogan h1 strong {
+          color: #ffd217;
+          font-weight: 500; }
+  #content .bulletin-board {
+    overflow: hidden;
+    padding: 50px 0;
+    background-color: #ffd217; }
+    #content .bulletin-board .container > div {
+      float: left;
+      width: 50%;
+      padding-top: 6px;
+      padding-bottom: 6px; }
+      #content .bulletin-board .container > div .borad-title {
+        position: relative;
+        display: block;
+        font-size: 20px;
+        color: #333;
+        font-weight: bold;
+        margin-bottom: 28px; }
+        #content .bulletin-board .container > div .borad-title .btn-more {
+          display: inline-block;
+          position: absolute;
+          top: 3px;
+          right: 0;
+          height: 16px; }
+          #content .bulletin-board .container > div .borad-title .btn-more img {
+            vertical-align: top; }
+      #content .bulletin-board .container > div > ul > li {
+        position: relative;
+        line-height: 26px;
+        color: #444;
+        font-weight: 300;
+        padding-right: 75px;
+        padding-left: 10px; }
+        #content .bulletin-board .container > div > ul > li:before {
+          position: absolute;
+          top: 50%;
+          left: 0;
+          margin-top: -1px;
+          display: block;
+          content: "";
+          width: 2px;
+          height: 2px;
+          background-color: #333; }
+        #content .bulletin-board .container > div > ul > li a {
+          display: block;
+          overflow: hidden;
+          white-space: nowrap;
+          text-overflow: ellipsis;
+          color: #444; }
+        #content .bulletin-board .container > div > ul > li .date {
+          position: absolute;
+          top: 0;
+          right: 0;
+          line-height: 26px; }
+      #content .bulletin-board .container > div.recruiting {
+        padding-right: 50px;
+        position: relative; }
+        #content .bulletin-board .container > div.recruiting:after {
+          display: block;
+          position: absolute;
+          top: 0;
+          right: 0;
+          height: 166px;
+          border-right: 1px solid #d1ab11;
+          content: ""; }
+      #content .bulletin-board .container > div.notice {
+        padding-left: 50px; }
+
+#quick-nav {
+  padding: 40px 0;
+  background-color: #f7f7f7; }
+  #quick-nav .box {
+    position: relative;
+    width: 100%;
+    height: 240px;
+    color: #fff;
+    padding: 26px 30px 25px;
+    background-repeat: no-repeat; }
+    #quick-nav .box h3 {
+      font-size: 22px;
+      font-weight: bold;
+      line-height: 30px;
+      font-family: 'Nanum Square';
+      margin-bottom: 26px; }
+    #quick-nav .box p {
+      font-size: 13px;
+      color: #fff;
+      opacity: .8;
+      line-height: 20px; }
+    #quick-nav .box .btn-quick {
+      position: absolute;
+      bottom: 25px;
+      left: 30px;
+      display: block;
+      width: 80px;
+      height: 30px;
+      font-size: 12px;
+      color: #fff;
+      text-align: center;
+      line-height: 30px;
+      font-family: 'Nanum Square';
+      text-decoration: none;
+      border: 1px solid #fff; }
+    #quick-nav .box.program {
+      background-color: #3f89cf;
+      background-image: url(/assets/images/main/program_bg.png);
+      background-position: 249px 123px; }
+    #quick-nav .box.guide-book {
+      background-color: #c34b13;
+      background-image: url(/assets/images/main/guidebook_bg.png);
+      background-position: 257px 121px; }
+    #quick-nav .box.site-link {
+      background-color: #685b55;
+      background-image: url(/assets/images/main/sitelink_bg.png);
+      background-position: 246px 123px; }
+
+/*# sourceMappingURL=main.css.map */
