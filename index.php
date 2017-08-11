@@ -1,4 +1,3 @@
-<<<<<<< HEAD
 <?php require_once($_SERVER['DOCUMENT_ROOT'].'/inc/dochead.php'); ?>
 </head>
 <body>
@@ -119,6 +118,3 @@
     </script>
 </body>
 </html>
-=======
-html.work.paekche.ac.kr
->>>>>>> 9b8cd761a701902a88672afb1ebd6e987a1ae0c9
