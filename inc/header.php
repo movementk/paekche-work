@@ -42,7 +42,7 @@
                 <li><a href="#">공지사항</a></li>
                 <li><a href="/information.php">취·창업 지원 프로그램 소개</a></li>
                 <li><a href="#">e-가이드북</a></li>
-                <li><a href="#">주요 사이트 링크</a></li>
+                <li><a href="/site_link.php">주요 사이트 링크</a></li>
             </ul>
         </nav>
     </div>

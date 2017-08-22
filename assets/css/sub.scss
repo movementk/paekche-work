@@ -818,6 +818,93 @@ p {
     }
 }
 
+// 주요 사이트 링크
+.site-link {
+    .section-content {
+        ul {
+            li {
+                .site-list {
+                    background-color: #fafafa;
+                    h4 {
+                        font-size: 16px;
+                        color: #333;
+                        line-height: 59px;
+                        text-align: center;
+                        background-image: url(/assets/images/sitelink/site_link_title_bg.gif);
+                        background-position: 50% 50%;
+                        i {
+                            display: inline-block;
+                            margin-right: 10px;
+                            width: 20px;
+                            height: 20px;
+                            vertical-align: middle;
+                            margin-top: -3px;
+                            background-image: url(/assets/images/sitelink/site_link_icon.png);
+                            background-position: 0 0;
+                            background-size: 20px;
+                        }
+                    }
+                    > ul {
+                        padding: 35px 0 35px 30px;
+                        border-top: 2px solid #d0d0d0;
+                        border-bottom: 2px solid #d0d0d0;
+                        li {
+                            line-height: 36px;
+                            a {
+                                position: relative;
+                                display: inline-block;
+                                font-size: 15px;
+                                color: #666;
+                                line-height: 20px;
+                                padding-left: 20px;
+                                text-decoration: none;
+                                opacity: .8;
+                                &:before {
+                                    position: absolute;
+                                    top: 2px;
+                                    left: 0;
+                                    content: "\E805";
+                                    font-family: "fontello";
+                                }
+                                &:hover, &:focus {
+                                    color: #cf2a32;
+                                }
+                                small {
+                                    font-size: 13px;
+                                    letter-spacing: -.5px;
+                                }
+                            }
+                        }
+                    }
+                }
+                &:nth-of-type(1), &:nth-of-type(2), &:nth-of-type(3) {
+                    .site-list {
+                        margin-bottom: 70px;
+                        > ul {
+                            height: 265px;
+                        }
+                    }
+                }
+                &:nth-of-type(4), &:nth-of-type(5), &:nth-of-type(6) {
+                    .site-list {
+                        > ul {
+                            height: 442px;
+                        }
+                    }
+                }
+                &:nth-of-type(6) {
+                    .site-list {
+                        h4 {
+                            line-height: 22px;
+                            padding: 8px 0 7px;
+                        }
+                    }
+                }
+            }
+        }
+    }
+}
+
 
 
 
